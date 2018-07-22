@@ -1,13 +1,13 @@
 spring:
   application:
-    name: inventory-service
+    name: pricing-service
   profiles:
     active: dev
 
 server:
-  port: 8080
+  port: 8089
 
 management:
   server:
-    port: 9090
+    port: 9091
 

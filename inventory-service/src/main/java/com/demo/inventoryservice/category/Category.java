@@ -21,4 +21,6 @@ public class Category implements Serializable {
 
     private String name;
 
+    private Double taxRate;
+
 }
