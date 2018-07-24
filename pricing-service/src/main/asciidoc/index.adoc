@@ -1,0 +1,27 @@
+= Pricing Service Document
+:doctype: book
+
+
+== Get all Price list
+
+.request
+include::{snippets}/get-prices/http-request.adoc[]
+
+.response
+include::{snippets}/get-prices/http-response.adoc[]
+
+== Get a Price By Id
+
+.request
+include::{snippets}/get-price/http-request.adoc[]
+
+.response
+include::{snippets}/get-price/http-response.adoc[]
+
+== Get a Price By Product Id
+
+.request
+include::{snippets}/get-price-by-product-id/http-request.adoc[]
+
+.response
+include::{snippets}/get-price-by-product-id/http-response.adoc[]
