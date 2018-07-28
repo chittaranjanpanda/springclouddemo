@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: inventory-service
+
+  cloud:
+    config:
+      uri: http://localhost:9090
+      username: admin
+      password: s3cr3t
+      name: inventory-service
+      profile: dev
+      label: master
+      fail-fast: true
+
+server:
+  port: 8080
+

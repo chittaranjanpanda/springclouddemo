@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: pricing-service
+
+  cloud:
+    config:
+      uri: http://localhost:9090
+      username: admin
+      password: s3cr3t
+      name: pricing-service
+      profile: dev
+      label: master
+      fail-fast: true
+
+
+server:
+  port: 8089
+
