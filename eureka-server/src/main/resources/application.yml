@@ -1,0 +1,7 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: eureka-server
+  profiles:
+    active: dev
