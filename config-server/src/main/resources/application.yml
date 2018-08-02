@@ -10,6 +10,18 @@ spring:
     user:
       name: admin
       password: s3cr3t
+
+  boot:
+    admin:
+      client:
+        url: http://localhost:9092
+        username: admin
+        password: admin
+
+
+  application:
+    name: config-server
+
 management:
   endpoints:
     web:

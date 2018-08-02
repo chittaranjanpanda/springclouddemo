@@ -6,3 +6,11 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:9092
+        username: admin
+        password: admin
