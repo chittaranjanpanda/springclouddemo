@@ -14,3 +14,9 @@ spring:
         url: http://localhost:9092
         username: admin
         password: admin
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
